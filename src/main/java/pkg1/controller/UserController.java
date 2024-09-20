@@ -42,7 +42,7 @@ public class UserController {
 		ue.setMobileNo(ud.getUser().getMobileNo());
 		ue.setPinCode(ud.getUser().getPinCode());
 		ue.setCe(ce);
-		return ur.save(ue);
+		return ur.save(ue);	
 	}
 	
 	@GetMapping("/findAll")
